@@ -1,0 +1,6 @@
+# rename_zuozhe
+##### 1. 遍历文件夹下的子文件夹
+##### 2. 遍历子文件夹下的pdf文档(text_path), 获取油田名称（Field_name)
+##### 3. 读取pdf文档，将整片文章存成string
+##### 4. 检索 string 中 Field_name 和 “References" or "Reference" or "REFERENCE" or "REFERENCES"的位置
+##### 5. 比较二者的位置，如果 Field 只出现在reference 之后，而且文章中存在reference，则返回text_path，并将text_path写入false_field_name_0.txt
